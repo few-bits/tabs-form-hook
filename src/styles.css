@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+  display: flex;
+}
+
+.forms {
+  min-height: 250px;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+  width: 100px;
+}
+
+.tabItem {
+  border: 1px solid;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+input.dirty {
+  background-color: #ffe5cb;
+}
+
+.tabItem.active {
+  background-color: #c6e6f7;
+}
+.tabItem.dirty {
+  border-color: #f5871f;
+}
+
+.tabItem.dirty.error,
+.tabItem.error {
+  border-color: #ff2340;
+}
